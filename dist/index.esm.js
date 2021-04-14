@@ -342,8 +342,7 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/egg/logo.png" })));
+    return (React.createElement("img", __assign({ src: "/images/dry/DRYCAKE-logo-new.png", width: "205" }, props)));
 };
 
 var Icon$r = function (props) {
@@ -1863,9 +1862,8 @@ var Icon$P = function (props) {
 };
 
 var Logo = function (_a) {
-    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+    _a.isDark; var props = __rest(_a, ["isDark"]);
+    return (React.createElement("img", __assign({ src: "/images/dry/DRYCAKE-logo-new.png", width: "205" }, props)));
 };
 
 var Icon$Q = function (props) {
@@ -2016,7 +2014,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$x;
 
-var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 125px!important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 125px!important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2155,68 +2153,23 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/goosedefi",
+                label: "Group",
+                href: "https://t.me/drycake_en",
             },
             // {
             //   label: "Bahasa Indonesia",
             //   href: "https://t.me/PancakeSwapIndonesia",
             // },
             {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            {
-                label: "Italiano",
-                href: "https://t.me/goosefinanceitalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/goosefinancefrench",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
+                label: "Channel",
+                href: "https://t.me/DryCake",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
-    },
-    {
-        label: "Reddit",
-        icon: "RedditIcon",
-        href: "https://www.reddit.com/r/GooseFinanceofficial",
+        href: "https://twitter.com/DryCakeSwap",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2807,7 +2760,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#ae8761", textDisabled: "#BDC2C4", textSubtle: "#ae8761", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4f2c16", background: "#ae8761", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#86613b", gradients: {
