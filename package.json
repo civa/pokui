@@ -1,6 +1,6 @@
 {
   "name": "dry-uikit",
-  "version": "0.15.2",
+  "version": "0.16.2",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
