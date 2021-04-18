@@ -355,7 +355,7 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/IMG-20210318-213156-858-removebg-preview.png" }, props)));
+    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/logo.png" }, props)));
 };
 
 var Icon$r = function (props) {
@@ -1876,7 +1876,7 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/IMG-20210318-213156-858-removebg-preview.png" }, props)));
+    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/logo.png" }, props)));
 };
 
 var Icon$Q = function (props) {
