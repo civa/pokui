@@ -355,7 +355,7 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/IMG-20210318-213156-858-removebg-preview.png" }, props)));
+    return React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/logo.png" }, props));
 };
 
 var Icon$r = function (props) {
@@ -1543,7 +1543,7 @@ var shadows = {
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #7645D9, 0px 0px 0px 4px rgba(118, 69, 217, 0.6)",
+    focus: "#4f2c16 0px 0px 0px 1px, #4f2c1694 0px 0px 0px 4px",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -1876,7 +1876,7 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/IMG-20210318-213156-858-removebg-preview.png" }, props)));
+    return React__default['default'].createElement("img", __assign({ width: "32", height: "32", src: "/images/dry/logo.png" }, props));
 };
 
 var Icon$Q = function (props) {
@@ -2027,7 +2027,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$x;
 
-var StyledLink$1 = styled__default['default'](reactRouterDom.Link)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 125px !important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 125px !important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink$1 = styled__default['default'](reactRouterDom.Link)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 42px !important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 42px !important;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2776,7 +2776,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#ae8761", textDisabled: "#BDC2C4", textSubtle: "#86613b", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4f2c16", background: "#ae8761", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#b89777", primaryDark: "#0098A1", tertiary: "#a27a53", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#86613b", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4f2c16", background: "#ae8761", backgroundDisabled: "#4d4540", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#b89777", primaryDark: "#0098A1", tertiary: "#a27a53", text: "#EAE2FC", textDisabled: "#80756e", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#86613b", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
