@@ -3,7 +3,7 @@ import Svg from "../Svg/Svg";
 import { SvgProps } from "../Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
-  return <Svg viewBox="0 0 128 128" {...props}></Svg>;
+  return <img width="90" height="90" src="/images/dry/logo.png" {...props} />;
 };
 
 export default Icon;
