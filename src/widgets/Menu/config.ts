@@ -120,22 +120,18 @@ export const socials = [
     items: [
       {
         label: "Group",
-        href: "https://t.me/drycake_en",
+        href: "https://t.me/official_24kswap",
       },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
       // },
-      {
-        label: "Channel",
-        href: "https://t.me/DryCake",
-      },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/DryCakeSwap",
+    href: "https://twitter.com/24Kswap",
   },
 ];
 
