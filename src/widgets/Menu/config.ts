@@ -117,7 +117,10 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/official_24kswap",
+    items: [
+      {
+        label: "Group",
+        href: "https://t.me/drycake_en",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -132,7 +135,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/24Kswap",
+    href: "https://twitter.com/DryCakeSwap",
   },
 ];
 
