@@ -123,10 +123,6 @@ export const socials = [
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
       // },
-      {
-        label: "Channel",
-        href: "https://t.me/DryCake",
-      },
     ],
   },
   {
