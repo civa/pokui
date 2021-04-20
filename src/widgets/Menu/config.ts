@@ -118,6 +118,16 @@ export const socials = [
     label: "Telegram",
     icon: "TelegramIcon",
     href: "https://t.me/official_24kswap",
+      },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      {
+        label: "Channel",
+        href: "https://t.me/DryCake",
+      },
+    ],
   },
   {
     label: "Twitter",
