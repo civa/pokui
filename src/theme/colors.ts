@@ -48,7 +48,7 @@ export const darkColors: Colors = {
   textDisabled: "#767366",
   textSubtle: "#d5c78c",
   borderColor: "#524B63",
-  card: "#86613b",
+  card: "#3a4750",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #4b4428 0%, #4b4426 100%)",
   },
