@@ -1,5 +1,5 @@
 {
-  "name": "heco-ui",
+  "name": "24testui",
   "version": "2.2.5",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
