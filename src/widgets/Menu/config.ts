@@ -120,7 +120,7 @@ export const socials = [
     items: [
       {
         label: "Group",
-        href: "https://t.me/official_24kswap",
+        href: "https://t.me/pokfans",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -131,7 +131,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/24Kswap",
+    href: "https://twitter.com/pok_fans",
   },
 ];
 
