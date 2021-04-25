@@ -15,7 +15,7 @@ const rotate = keyframes`
 const SpinnerIcon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 500 500" {...props}>
-      <image width="96" height="96" href="/images/dry/DRYCAKE-logso-p.png" />
+      <image width="96" height="96" href="/images/dry/logo.png" />
     </Svg>
   );
 };
